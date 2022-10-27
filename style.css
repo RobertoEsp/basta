@@ -1,0 +1,22 @@
+* {
+    font-size: 50px;
+  }
+  #title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  #title *{
+    align-self: center;
+    min-width: 280px;
+    text-align: center;
+  }
+  #buttons * {
+   margin: 30px;
+   width: 120px;
+   font-size: 100px;
+  }
+  
+  #gameOver {
+    visibility: hidden;
+  }
